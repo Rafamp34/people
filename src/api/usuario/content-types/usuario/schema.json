@@ -4,7 +4,8 @@
   "info": {
     "singularName": "usuario",
     "pluralName": "usuarios",
-    "displayName": "Usuarios"
+    "displayName": "Usuarios",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,7 @@
     "apellidos": {
       "type": "string"
     },
-    "edad": {
+    "genero": {
       "type": "string"
     }
   }

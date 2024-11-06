@@ -713,6 +713,7 @@ export interface ApiUsuarioUsuario extends Schema.CollectionType {
     singularName: 'usuario';
     pluralName: 'usuarios';
     displayName: 'Usuarios';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -720,7 +721,7 @@ export interface ApiUsuarioUsuario extends Schema.CollectionType {
   attributes: {
     nombre: Attribute.String;
     apellidos: Attribute.String;
-    edad: Attribute.String;
+    genero: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
